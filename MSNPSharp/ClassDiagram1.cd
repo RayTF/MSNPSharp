@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="MSNPSharp.Settings" Collapsed="true">
+    <Position X="32" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Configuration.cs</FileName>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAgAAoAAABAIAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ConnectivityException" Collapsed="true">
+    <Position X="5.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConnectivityException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ConnectivitySettings" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConnectivitySettings.cs</FileName>
+      <HashCode>AAQAAACEAAAAoAAEACAAAgAACAIACAwCAAgEAgAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ContactStatusChangedEventArgs" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contact.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAgIAAAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ContactEventArgs" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contact.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.StatusChangedEventArgs" Collapsed="true">
+    <Position X="23.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contact.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Contact" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contact.cs</FileName>
+      <HashCode>UFVJQQQEoQJFgSQgwLFkVFSFQUxOFekEUgDAQRFAAmU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ContactGroupEventArgs" Collapsed="true">
+    <Position X="30.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ContactGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ContactGroup" Collapsed="true">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ContactGroup.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAgAAAABQEAAAEBIAAEAAAQBAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ContactGroupList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ContactGroupList.cs</FileName>
+      <HashCode>AAIAAgAAAAAAABAACAAABAAAAAAgAAAAEAAAAABAAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.ContactList" Collapsed="true">
+    <Position X="33.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ContactList.cs</FileName>
+      <HashCode>AAAAAAAgACAACAAQKAAAFAAAAAABAAAAgoACIAAIIAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Conversation" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Conversation.cs</FileName>
+      <HashCode>BEIQRCKCFZVEgCWg0EACpBMQBg0FwBSxg4QGIAUUYQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Credentials" Collapsed="true">
+    <Position X="28.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Credentials.cs</FileName>
+      <HashCode>AAAAAAAgAAIAAAAAAAAAAAAgAAAAAAACAAAAQgAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DisplayImage" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DisplayImage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAACBAAEAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Emoticon" Collapsed="true">
+    <Position X="10.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Emoticon.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.EmoticonMessage" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EmoticonMessage.cs</FileName>
+      <HashCode>AACAAAAAACAACCAkAAAABAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ExceptionEventArgs" Collapsed="true">
+    <Position X="32" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.TextMessageEventArgs" Collapsed="true">
+    <Position X="28.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.WinkEventArgs" Collapsed="true">
+    <Position X="30.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.EmoticonDefinitionEventArgs" Collapsed="true">
+    <Position X="30.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.MailboxStatusEventArgs" Collapsed="true">
+    <Position X="28.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MailEventArgs.cs</FileName>
+      <HashCode>SAAAAUgAEAEgAAAAIAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.MailChangedEventArgs" Collapsed="true">
+    <Position X="30.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MailEventArgs.cs</FileName>
+      <HashCode>AAgAAAAAAAAAQAAABAAAAAQABAAAAAAAAAAEAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.NewMailEventArgs" Collapsed="true">
+    <Position X="30.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MailEventArgs.cs</FileName>
+      <HashCode>AgACAQIAAAEARAAAAIQAAACEAAAABAAAAAAEAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ConversationCreatedEventArgs" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Messenger.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQQAIAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Messenger" Collapsed="true">
+    <Position X="32" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Messenger.cs</FileName>
+      <HashCode>ECRAAACAAAABQAAIAAAAgIAAAEAEKEgAHECQAlACAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.MobileMessage" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MobileMessage.cs</FileName>
+      <HashCode>AACAAAAgAAAAKCAEACAAAAAgAAAEAAAIBAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.MSNObject" Collapsed="true">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MSNObject.cs</FileName>
+      <HashCode>AAEIAEAABgVAgoQEgIIAQAIKBAARAIAAEISAAgAABiI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.MSNObjectCatalog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MSNObject.cs</FileName>
+      <HashCode>AAIAAAAAAACAABBAAAAAFAQABABAAAAAAAAAAAAAICA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.MSNPSharpException" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MSNPSharpException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ListReceivedEventArgs" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.SignedOffEventArgs" Collapsed="true">
+    <Position X="33.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.PingAnswerEventArgs" Collapsed="true">
+    <Position X="33.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.ListMutateEventArgs" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACQAAAAkAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.MSNErrorEventArgs" Collapsed="true">
+    <Position X="33.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.NSMessageHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>PAjnFUTGC1CprQGioUBgIigmEHAEXPRCnELxJspflPU=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.NSMessageProcessor" Collapsed="true">
+    <Position X="4.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>NSMessageProcessor.cs</FileName>
+      <HashCode>AAQAAAAgCAAAAAAAACAAAIAoAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Owner" Collapsed="true">
+    <Position X="10.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Owner.cs</FileName>
+      <HashCode>gAFAAHDFIABITGWAIMwNoSwBKKdIdWkGBOABIYhAQSE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.PersonalMessage" Collapsed="true">
+    <Position X="32" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PersonalMessage.cs</FileName>
+      <HashCode>ACACAAAAAAAAUAgEAEAYCAAAQAqAAAIAAQAAIAAwAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.QRYFactory" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>QRYFactory.cs</FileName>
+      <HashCode>AAAAARAAAAAAAAAAAACAAEAIAAAAAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.SBEventArgs" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>AAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.SBCreatedEventArgs" Collapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>AAAQAAAAEAAAAAAAAAAAAAQAAAAEAAABACAAQQAgAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.SBMessageHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>FEABzQZCGIBQCABusUggIDGaFoAAeBSQHAAAIBGE4BA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.SBMessageProcessor" Collapsed="true">
+    <Position X="7" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>SBMessageProcessor.cs</FileName>
+      <HashCode>AAQAAAAgCAAAAAAAACACAIAoAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.StrKeyValuePair" Collapsed="true">
+    <Position X="26.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StrDictionary.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAQAAAAEAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.StrDictionary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StrDictionary.cs</FileName>
+      <HashCode>AAICAAAAAAAEABAACAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.TextMessage" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TextMessage.cs</FileName>
+      <HashCode>IAKAAAAAQAAACCAEAAQAAAAMABABCACYAAQAiAAGABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MSNPSharp.UnauthorizedException" Collapsed="true">
+    <Position X="7.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UnauthorizedException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="MSNPSharp.MSNPSharpException" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="11.13" />
+        <Point X="7.5" Y="11.71" />
+        <Point X="8.5" Y="11.71" />
+        <Point X="8.5" Y="12" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="MSNPSharp.Wink" Collapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Wink.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.Factory" Collapsed="true">
+    <Position X="33.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\Factory.cs</FileName>
+      <HashCode>ECAAIAAAABAFABAICAEACAhAgQAFYCAgYBAABAQAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.MessagePool" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\MessagePool.cs</FileName>
+      <HashCode>AAAAAAAAAAECAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.MSNMessage" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\MSNMessage.cs</FileName>
+      <HashCode>AACAAYAgAAGgCCAMAAAABAAgAAQAAAAAAQgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MSNPSharp.Core.NetworkMessage" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\NetworkMessage.cs</FileName>
+      <HashCode>AACAAAAAQgAACiAAAIIEAAAABgAAAABAgQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.NotificationMessage" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\NotificationMessage.cs</FileName>
+      <HashCode>AACQkAAwAACALAgEIIAAABAAAgAEAQgIAAAABAEAAgE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.NSMessage" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\NSMessage.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MSNPSharp.Core.NSMessagePool" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\NSMessagePool.cs</FileName>
+      <HashCode>AAAAAAAAACECEAQAIFCAAAAAAAAAEgAAABIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MSNPSharp.Core.SBMessage" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\SBMessage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.SBMessagePool" Collapsed="true">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\SBMessagePool.cs</FileName>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.MSGMessage" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\SBMSGMessage.cs</FileName>
+      <HashCode>AACAQAAIAEAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.SocketMessageProcessor" Collapsed="true">
+    <Position X="7" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Core\SocketMessageProcessor.cs</FileName>
+      <HashCode>CARgAAIBAAAAQQAAACBBQJAQQUAAIEICAAEAAgAYAkA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.MSNSLPTransferProperties" Collapsed="true">
+    <Position X="28.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\MSNSLPHandler.cs</FileName>
+      <HashCode>EAgKIhAAAgIAEABAABgAIkCIACJAgAAAAAAAAAAICEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PTransferSessionEventArgs" Collapsed="true">
+    <Position X="30.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\MSNSLPHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.MSNSLPInvitationEventArgs" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\MSNSLPHandler.cs</FileName>
+      <HashCode>AIAAAQDUAUEAQAFAAAgAAAAAAAAAAVAAAAEAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.MSNSLPHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\MSNSLPHandler.cs</FileName>
+      <HashCode>CQAAgQBGECAgAAgAQBJgAIQVEAEAOCAAAFAAQ4AAgCA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.MSNSLPMessage" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\MSNSLPMessage.cs</FileName>
+      <HashCode>IgiAACIAAAAAiAAEAIAhBAoAkQAYCJgAEAgQACAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PDCPool" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PDCPool.cs</FileName>
+      <HashCode>AAAAAAAAAAECAAAAAEAAAAAAAAAAAAABAAAQAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PDirectProcessor" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PDirectProcessor.cs</FileName>
+      <HashCode>AAQAAAAAAAEAAEAAACCAAAAAgAAAAAAAAQAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PSessionAffectedEventArgs" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PHandler.cs</FileName>
+      <HashCode>GAgoAABAQAQgAxkACAAgAAA0ECEAKQAAEAAAIAAIEIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PMessage" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessage.cs</FileName>
+      <HashCode>BBCgBAQAAIIgCKAGIAiAAAAIBAAAAARAACAAQAAghAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PDataMessage" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessage.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PDCMessage" Collapsed="true">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessage.cs</FileName>
+      <HashCode>AACAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PDCHandshakeMessage" Collapsed="true">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessage.cs</FileName>
+      <HashCode>AACgAAAAAAAAAAAEAAAAAAAEAAAABAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PMessagePool" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessagePool.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAEgAAAAAAAAAAQAAAAACQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PMessageSession" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessageSession.cs</FileName>
+      <HashCode>S9AkKABIECQADwAECDGgIgkiUDASagBAGEACIUIAhAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSNPSharp.DataTransfer.P2PTransferSession" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PTransferSession.cs</FileName>
+      <HashCode>CBgYCYBIAKEEEQDEBDjgUDAoICAAKEBIAAEQAhAYGAM=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.Authentication.AuthMethod" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\AuthMethod.cs</FileName>
+      <HashCode>AAAAAAQBAAAAAEAAAAAAAAIAAAAACAAgAAAAAgAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.Authentication.AuthNone" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\AuthNone.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.Authentication.AuthUserPass" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\AuthUserPass.cs</FileName>
+      <HashCode>AAAAAAAAAAAQAAAAAQAABQIBAAAAAAAiAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.IAsyncProxyResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\IAsyncProxyResult.cs</FileName>
+      <HashCode>AAAAAAIAAAAABAAAAAAAECAAAAAAABAQEAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.ProxyException" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\ProxyException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.ProxySocket" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\ProxySocket.cs</FileName>
+      <HashCode>AAAQAAAEICCJAEgAAAQAIICACAQFACAGAAAARAAgAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.Socks4Handler" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\Socks4Handler.cs</FileName>
+      <HashCode>AAAAABAAAAASAAAAAAAAAAABAAEEAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.Socks5Handler" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\Socks5Handler.cs</FileName>
+      <HashCode>AAAAABAAAAASAAAAAEAAAQKBAAEEAAACAEAABEAQEAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Org.Mentalis.Network.ProxySocket.SocksHandler" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\SocksHandler.cs</FileName>
+      <HashCode>AAAAABQBACAAAAAAEQAABAAACAAACEAAAAAQAgAAQAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.Core.YIMMessage" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\YIMMessage.cs</FileName>
+      <HashCode>AACAAAAAAAEAAGAAAAAABAAgBAAAAIAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSNPSharp.YIMMessageHandler" Collapsed="true">
+    <Position X="1.5" Y="16" Width="2" />
+    <TypeIdentifier>
+      <FileName>YIMMessageHandler.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAsAAAAAAECAgAAABwACAAAAAKAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MSNPSharp.Core.IMessageHandler" Collapsed="true">
+    <Position X="23.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\IMessageHandler.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MSNPSharp.Core.IMessageProcessor" Collapsed="true">
+    <Position X="25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\MessageProcessor.cs</FileName>
+      <HashCode>CAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MSNPSharp.ProxyType" Collapsed="true">
+    <Position X="32" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.NotificationType" Collapsed="true">
+    <Position X="23.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.PresenceStatus" Collapsed="true">
+    <Position X="28.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAABABAAAAAAAAAgAEAAAAABAAAAAAAAAIAAEgFA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.MSNError" Collapsed="true">
+    <Position X="30.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAcpAoEqohACAGQAgEYgAIaHBAoURRIJAUFQACGBAJA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.MSNLists" Collapsed="true">
+    <Position X="32" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAQAAAQAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAEIAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.PrivacyMode" Collapsed="true">
+    <Position X="30.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.NotifyPrivacy" Collapsed="true">
+    <Position X="25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.ClientCapacities" Collapsed="true">
+    <Position X="23.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AABACAAIAJNIJAIAAAAFAAGAAEBgAEAAjAAIAQkYCAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.TextDecorations" Collapsed="true">
+    <Position X="25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAACAAAIAAAAAAAAACAAAAAAAAAAEAAAE=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.MediaType" Collapsed="true">
+    <Position X="26.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>QAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.MessageCharSet" Collapsed="true">
+    <Position X="28.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAIAQAAABCABEACAEAAICAQABAAACAAAIAAEAIIiAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.MSNObjectType" Collapsed="true">
+    <Position X="33.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MSNObject.cs</FileName>
+      <HashCode>IACAAAAAEAAAAAAAAAYABAAAAABCAAFAAAAiAIAAABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.SignedOffReason" Collapsed="true">
+    <Position X="23.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>enums.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.DataTransfer.DataTransferType" Collapsed="true">
+    <Position X="25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\MSNSLPHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAABAAAAAAEAAAAAAAAAEAAABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSNPSharp.DataTransfer.P2PFlag" Collapsed="true">
+    <Position X="26.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataTransfer\P2PMessage.cs</FileName>
+      <HashCode>AgAAAAIIAgCAAAAAAAgAAAAAAAAMQACAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Org.Mentalis.Network.ProxySocket.ProxyTypes" Collapsed="true">
+    <Position X="33.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\ProxySocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MSNPSharp.ConversationCreatedEventHandler" Collapsed="true">
+    <Position X="28.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Messenger.cs</FileName>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.ContactChangedEventHandler" Collapsed="true">
+    <Position X="23.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.ContactGroupChangedEventHandler" Collapsed="true">
+    <Position X="25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.ContactStatusChangedEventHandler" Collapsed="true">
+    <Position X="26.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.ListReceivedEventHandler" Collapsed="true">
+    <Position X="26.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.SignedOffEventHandler" Collapsed="true">
+    <Position X="33.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.PingAnswerEventHandler" Collapsed="true">
+    <Position X="25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.ListMutatedAddedEventHandler" Collapsed="true">
+    <Position X="25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.SBCreatedEventHandler" Collapsed="true">
+    <Position X="30.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.MailboxStatusEventHandler" Collapsed="true">
+    <Position X="28.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.NewMailEventHandler" Collapsed="true">
+    <Position X="33.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.MailChangedEventHandler" Collapsed="true">
+    <Position X="30.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NSMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.SBChangedEventHandler" Collapsed="true">
+    <Position X="28.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.TextMessageReceivedEventHandler" Collapsed="true">
+    <Position X="23.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.EmoticonDefinitionReceivedEventHandler" Collapsed="true">
+    <Position X="30.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.WinkReceivedEventHandler" Collapsed="true">
+    <Position X="26.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.UserTypingEventHandler" Collapsed="true">
+    <Position X="25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SBMessageHandler.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.Core.ErrorReceivedEventHandler" Collapsed="true">
+    <Position X="32" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.Core.HandlerExceptionEventHandler" Collapsed="true">
+    <Position X="33.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IMessageHandler.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.Core.ProcessorExceptionEventHandler" Collapsed="true">
+    <Position X="26.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageProcessor.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.DataTransfer.P2PTransferSessionChangedEventHandler" Collapsed="true">
+    <Position X="23.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MSNSLPHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.DataTransfer.MSNSLPInvitationReceivedEventHandler" Collapsed="true">
+    <Position X="32" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MSNSLPHandler.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MSNPSharp.DataTransfer.SessionChangedEventHandler" Collapsed="true">
+    <Position X="32" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>P2PHandler.cs</FileName>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Org.Mentalis.Network.ProxySocket.HandShakeComplete" Collapsed="true">
+    <Position X="23.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProxySocket\SocksHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

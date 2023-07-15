@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNOIMStoreService/wsrm.xsd" filename="wsrm.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNOIMStoreService/utility.xsd" filename="utility.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNOIMStoreService/oim_ws.wsdl" filename="oim_ws.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNOIMStoreService/oim_servicetypes.xsd" filename="oim_servicetypes.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

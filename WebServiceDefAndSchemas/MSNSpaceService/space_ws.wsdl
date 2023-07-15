@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by wp (freezingsoft) -->
+<definitions xmlns:tns="http://www.msn.com/webservices/spaces/v1/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.msn.com/webservices/spaces/v1/">
+    <types>
+        <xs:schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <xs:import schemaLocation="space_ws_servicetype.xsd" namespace="http://www.msn.com/webservices/spaces/v1/"/>
+        </xs:schema>
+    </types>
+    <message name="GetXmlFeedMessage">
+        <part name="GetXmlFeedRequest" element="tns:GetXmlFeed"/>
+    </message>
+    <message name="GetXmlFeedResponseMessage">
+        <part name="GetXmlFeedResponse" element="tns:GetXmlFeedResponse"/>
+    </message>
+    <message name="GetXmlFeedRequestHeader">
+        <part name="AthHeader" element="tns:AuthTokenHeader"/>
+    </message>
+    <portType name="SpaceServicePortType">
+        <operation name="GetXmlFeed">
+            <input message="tns:GetXmlFeedMessage"/>
+            <output message="tns:GetXmlFeedResponseMessage"/>
+        </operation>
+    </portType>
+    <binding name="SpaceServiceBinding" type="tns:SpaceServicePortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetXmlFeed">
+            <soap:operation soapAction="http://www.msn.com/webservices/spaces/v1/GetXmlFeed"/>
+            <input>
+                <soap:body use="literal"/>
+                <soap:header message="tns:GetXmlFeedRequestHeader" part="AthHeader" use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="SpaceService">
+        <port name="GetXmlFeedPort" binding="tns:SpaceServiceBinding">
+            <soap:address location="http://cc.services.spaces.live.com/contactcard/contactcardservice.asmx"/>
+        </port>
+    </service>
+</definitions>

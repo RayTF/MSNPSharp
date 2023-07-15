@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:oim="http://messenger.msn.com/ws/2004/09/oim/" xmlns="http://messenger.msn.com/ws/2004/09/oim/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://messenger.msn.com/ws/2004/09/oim/" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:element name="From">
+    <xsd:complexType>
+      <xsd:attribute name="memberName" type="xsd:string" />
+      <xsd:attribute name="friendlyName" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation>This field must be encoded according to RFC 2047.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute ref="xml:lang" />
+      <xsd:attribute name="proxy" type="xsd:string" />
+      <xsd:attribute name="msnpVer" type="xsd:string" />
+      <xsd:attribute name="buildVer" type="xsd:string" />
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="To">
+    <xsd:complexType>
+      <xsd:attribute name="memberName" type="xsd:string" use="required" />
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Ticket">
+    <xsd:complexType>
+      <xsd:attribute name="passport" type="xsd:string" use="required" />
+      <xsd:attribute name="appid" type="xsd:string" use="required" />
+      <xsd:attribute name="lockkey" type="xsd:string" />
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:complexType name="StoreResultType">
+    <xsd:sequence>
+      <xsd:element name="PointsConsumed" type="xsd:integer" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="StoreResponse" type="oim:StoreResultType" />
+  <xsd:element name="AuthenticationFailed" type="oim:AuthenticationFailedType" />
+  <xsd:element name="MessageType">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="text" />
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="Content" type="xsd:string" />
+  <xsd:complexType name="AuthenticationFailedType">
+    <xsd:sequence>
+      <xsd:element name="faultcode" />
+      <xsd:element name="detail" type="oim:detailType" />
+      <xsd:element name="faultstring" type="xsd:string" />
+      <xsd:element name="faultactor" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="detailType">
+    <xsd:sequence minOccurs="0">
+      <xsd:element minOccurs="0" name="TweenerChallenge" type="xsd:string" />
+      <xsd:element minOccurs="0" name="LockKeyChallenge" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

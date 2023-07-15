@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>MSNPSharp_logo.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DotMSNClient</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MSNPSharpClient</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>MSNPSharpClient.ClientForm</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MSNPSharp_logo.ico" />
+    <None Include="Resources\Color_fontHS.png" />
+    <None Include="Resources\app_banner.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\YahooMessenger_logo.png" />
+    <None Include="Resources\msn_ico.ico" />
+    <None Include="Resources\MSNPSharp_logo_small.ico" />
+    <None Include="Resources\MSNPSharp_logo.ico" />
+    <None Include="Resources\status\open.png" />
+    <None Include="Resources\status\online.png" />
+    <None Include="Resources\status\offline.png" />
+    <None Include="Resources\status\idle.png" />
+    <None Include="Resources\status\hidden.png" />
+    <None Include="Resources\status\closed.png" />
+    <None Include="Resources\status\circle.png" />
+    <None Include="Resources\status\busy.png" />
+    <None Include="Resources\status\away.png" />
+    <None Include="Resources\file.png" />
+    <None Include="Resources\nudge.png" />
+    <None Include="Resources\yahoo_ico.ico" />
+    <None Include="Resources\smileys\tongueout.gif" />
+    <None Include="Resources\smileys\smiley.gif" />
+    <None Include="Resources\smileys\sad.gif" />
+    <None Include="Resources\smileys\biggrin.gif" />
+    <None Include="Resources\smileys\wink.gif" />
+    <None Include="Resources\inner_emoicon.png" />
+    <Compile Include="AddContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddContactForm.Designer.cs">
+      <DependentUpon>AddContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConversationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileTransferForm.Designer.cs">
+      <DependentUpon>FileTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DotMSNClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DotMSNClient.Designer.cs">
+      <DependentUpon>DotMSNClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportContacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportContacts.Designer.cs">
+      <DependentUpon>ImportContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusicForm.Designer.cs">
+      <DependentUpon>MusicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveContactForm.Designer.cs">
+      <DependentUpon>RemoveContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReverseAddedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReverseAddedForm.Designer.cs">
+      <DependentUpon>ReverseAddedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RtfRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TraceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraceForm.Designer.cs">
+      <DependentUpon>TraceForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddContactForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversationForm.resx">
+      <DependentUpon>ConversationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileTransferForm.resx">
+      <DependentUpon>FileTransferForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DotMSNClient.resx">
+      <DependentUpon>DotMSNClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportContacts.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImportContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MusicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveContactForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RemoveContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReverseAddedForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReverseAddedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraceForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TraceForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MSNPSharp\MSNPSharp.csproj">
+      <Project>{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}</Project>
+      <Name>MSNPSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

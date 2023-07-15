@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotMSNClient", "Example\DotMSNClient.csproj", "{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "ProxyServer\ProxyServer.csproj", "{EB773C85-DDF7-4031-A993-102B9C8ED02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSNPSharp", "MSNPSharp\MSNPSharp.csproj", "{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MSNPSharp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BDF3E472-EFE8-44D6-AFB6-062DD929D56F}.Release|Win32.ActiveCfg = Release|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EB773C85-DDF7-4031-A993-102B9C8ED02C}.Release|Win32.ActiveCfg = Release|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{97CB2DC7-2FE8-4AF5-84D0-6B9872A5E960}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Example\DotMSNClient.csproj
+	EndGlobalSection
+EndGlobal

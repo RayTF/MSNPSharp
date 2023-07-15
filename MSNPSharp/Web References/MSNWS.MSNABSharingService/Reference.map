@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNABSharingService/msnab_servicetypes.xsd" filename="msnab_servicetypes.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNABSharingService/msnab_sharingservice.wsdl" filename="msnab_sharingservice.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNABSharingService/msnab_datatypes.xsd" filename="msnab_datatypes.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:saml="urn:oasis:names:tc:SAML:1.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="urn:oasis:names:tc:SAML:1.0:assertion" version="1.1" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import schemaLocation="xmldsig-core-schema.xsd" namespace="http://www.w3.org/2000/09/xmldsig#" />
+  <annotation>
+    <documentation>
+                Document identifier: sstc-saml-schema-assertion-1.1-cs
+                Location: http://www.oasis-open.org/committees/documents.php?wg_abbrev=security
+                Revision history:
+                V1.0 (November, 2002):
+                  Initial standard schema.
+                V1.1 (May, 2003):
+                  * Note that V1.1 of this schema has the same XML namespace as V1.0.
+                  Rebased ID content directly on XML Schema types
+                  Added DoNotCacheCondition element and DoNotCacheConditionType
+		</documentation>
+  </annotation>
+  <simpleType name="DecisionType">
+    <restriction base="string">
+      <enumeration value="Permit" />
+      <enumeration value="Deny" />
+      <enumeration value="Indeterminate" />
+    </restriction>
+  </simpleType>
+  <element name="AssertionIDReference" type="NCName" />
+  <element name="Assertion" type="saml:AssertionType" />
+  <complexType name="AssertionType">
+    <sequence>
+      <element minOccurs="0" ref="saml:Conditions" />
+      <element minOccurs="0" ref="saml:Advice" />
+      <sequence maxOccurs="unbounded">
+        <element minOccurs="0" ref="saml:Statement" />
+        <element minOccurs="0" ref="saml:SubjectStatement" />
+        <element minOccurs="0" ref="saml:AuthenticationStatement" />
+        <element minOccurs="0" ref="saml:AuthorizationDecisionStatement" />
+        <element minOccurs="0" ref="saml:AttributeStatement" />
+      </sequence>
+      <element minOccurs="0" ref="ds:Signature" />
+    </sequence>
+    <attribute name="MajorVersion" type="integer" use="required" />
+    <attribute name="MinorVersion" type="integer" use="required" />
+    <attribute name="AssertionID" type="ID" use="required" />
+    <attribute name="Issuer" type="string" use="required" />
+    <attribute name="IssueInstant" type="dateTime" use="required" />
+  </complexType>
+  <element name="Conditions" type="saml:ConditionsType" />
+  <complexType name="ConditionsType">
+    <sequence minOccurs="0" maxOccurs="unbounded">
+      <element minOccurs="0" ref="saml:AudienceRestrictionCondition" />
+      <element minOccurs="0" ref="saml:DoNotCacheCondition" />
+      <element minOccurs="0" ref="saml:Condition" />
+    </sequence>
+    <attribute name="NotBefore" type="dateTime" use="optional" />
+    <attribute name="NotOnOrAfter" type="dateTime" use="optional" />
+  </complexType>
+  <element name="Condition" type="saml:ConditionAbstractType" />
+  <complexType name="ConditionAbstractType" abstract="true" />
+  <element name="AudienceRestrictionCondition" type="saml:AudienceRestrictionConditionType" />
+  <complexType name="AudienceRestrictionConditionType">
+    <complexContent mixed="false">
+      <extension base="saml:ConditionAbstractType">
+        <sequence>
+          <element maxOccurs="unbounded" ref="saml:Audience" />
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <element name="Audience" type="anyURI" />
+  <element name="DoNotCacheCondition" type="saml:DoNotCacheConditionType" />
+  <complexType name="DoNotCacheConditionType">
+    <complexContent mixed="false">
+      <extension base="saml:ConditionAbstractType" />
+    </complexContent>
+  </complexType>
+  <element name="Advice" type="saml:AdviceType" />
+  <complexType name="AdviceType">
+    <sequence minOccurs="0" maxOccurs="unbounded">
+      <element minOccurs="0" ref="saml:AssertionIDReference" />
+      <element minOccurs="0" ref="saml:Assertion" />
+      <any minOccurs="0" namespace="##other" processContents="lax" />
+    </sequence>
+  </complexType>
+  <element name="Statement" type="saml:StatementAbstractType" />
+  <complexType name="StatementAbstractType" abstract="true" />
+  <element name="SubjectStatement" type="saml:SubjectStatementAbstractType" />
+  <complexType name="SubjectStatementAbstractType" abstract="true">
+    <complexContent mixed="false">
+      <extension base="saml:StatementAbstractType">
+        <sequence>
+          <element ref="saml:Subject" />
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <element name="Subject" type="saml:SubjectType" />
+  <complexType name="SubjectType">
+    <sequence>
+      <sequence>
+        <element minOccurs="0" ref="saml:NameIdentifier" />
+        <element minOccurs="0" ref="saml:SubjectConfirmation" />
+      </sequence>
+    </sequence>
+  </complexType>
+  <element name="NameIdentifier" type="saml:NameIdentifierType" />
+  <complexType name="NameIdentifierType">
+    <simpleContent>
+      <extension base="string">
+        <attribute name="NameQualifier" type="string" use="optional" />
+        <attribute name="Format" type="anyURI" use="optional" />
+      </extension>
+    </simpleContent>
+  </complexType>
+  <element name="SubjectConfirmation" type="saml:SubjectConfirmationType" />
+  <complexType name="SubjectConfirmationType">
+    <sequence>
+      <element maxOccurs="unbounded" ref="saml:ConfirmationMethod" />
+      <element minOccurs="0" ref="saml:SubjectConfirmationData" />
+      <element minOccurs="0" ref="ds:KeyInfo" />
+    </sequence>
+  </complexType>
+  <element name="SubjectConfirmationData" type="anyType" />
+  <element name="ConfirmationMethod" type="anyURI" />
+  <element name="AuthenticationStatement" type="saml:AuthenticationStatementType" />
+  <complexType name="AuthenticationStatementType">
+    <complexContent mixed="false">
+      <extension base="saml:SubjectStatementAbstractType">
+        <sequence>
+          <element minOccurs="0" ref="saml:SubjectLocality" />
+          <element minOccurs="0" maxOccurs="unbounded" ref="saml:AuthorityBinding" />
+        </sequence>
+        <attribute name="AuthenticationMethod" type="anyURI" use="required" />
+        <attribute name="AuthenticationInstant" type="dateTime" use="required" />
+      </extension>
+    </complexContent>
+  </complexType>
+  <element name="SubjectLocality" type="saml:SubjectLocalityType" />
+  <complexType name="SubjectLocalityType">
+    <attribute name="IPAddress" type="string" use="optional" />
+    <attribute name="DNSAddress" type="string" use="optional" />
+  </complexType>
+  <element name="AuthorityBinding" type="saml:AuthorityBindingType" />
+  <complexType name="AuthorityBindingType">
+    <attribute name="AuthorityKind" type="QName" use="required" />
+    <attribute name="Location" type="anyURI" use="required" />
+    <attribute name="Binding" type="anyURI" use="required" />
+  </complexType>
+  <element name="AuthorizationDecisionStatement" type="saml:AuthorizationDecisionStatementType" />
+  <complexType name="AuthorizationDecisionStatementType">
+    <complexContent mixed="false">
+      <extension base="saml:SubjectStatementAbstractType">
+        <sequence>
+          <element maxOccurs="unbounded" ref="saml:Action" />
+          <element minOccurs="0" ref="saml:Evidence" />
+        </sequence>
+        <attribute name="Resource" type="anyURI" use="required" />
+        <attribute name="Decision" type="saml:DecisionType" use="required" />
+      </extension>
+    </complexContent>
+  </complexType>
+  <element name="Action" type="saml:ActionType" />
+  <complexType name="ActionType">
+    <simpleContent>
+      <extension base="string">
+        <attribute name="Namespace" type="anyURI" />
+      </extension>
+    </simpleContent>
+  </complexType>
+  <element name="Evidence" type="saml:EvidenceType" />
+  <complexType name="EvidenceType">
+    <sequence maxOccurs="unbounded">
+      <element minOccurs="0" ref="saml:AssertionIDReference" />
+      <element minOccurs="0" ref="saml:Assertion" />
+    </sequence>
+  </complexType>
+  <element name="AttributeStatement" type="saml:AttributeStatementType" />
+  <complexType name="AttributeStatementType">
+    <complexContent mixed="false">
+      <extension base="saml:SubjectStatementAbstractType">
+        <sequence>
+          <element maxOccurs="unbounded" ref="saml:Attribute" />
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <element name="AttributeDesignator" type="saml:AttributeDesignatorType" />
+  <complexType name="AttributeDesignatorType">
+    <attribute name="AttributeName" type="string" use="required" />
+    <attribute name="AttributeNamespace" type="anyURI" use="required" />
+  </complexType>
+  <element name="Attribute" type="saml:AttributeType" />
+  <complexType name="AttributeType">
+    <complexContent mixed="false">
+      <extension base="saml:AttributeDesignatorType">
+        <sequence>
+          <element maxOccurs="unbounded" ref="saml:AttributeValue" />
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <element name="AttributeValue" type="anyType" />
+</schema>

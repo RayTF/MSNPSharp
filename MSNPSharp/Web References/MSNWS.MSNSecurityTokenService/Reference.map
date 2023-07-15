@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ws-policy.xsd" filename="ws-policy.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/wss-utility.xsd" filename="wss-utility.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/addressing.xsd" filename="addressing.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/soap-env-03-05.xsd" filename="soap-env-03-05.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/addressing-04-08.xsd" filename="addressing-04-08.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/xmldsig-core-schema.xsd" filename="xmldsig-core-schema.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/xml.xsd" filename="xml.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/sstc-saml-schema-assertion-1.1-cs.xsd" filename="sstc-saml-schema-assertion-1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ws-secureconversation.xsd" filename="ws-secureconversation.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ws-trust.xsd" filename="ws-trust.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ws-secext.xsd" filename="ws-secext.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ps.wsdl" filename="ps.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ps.xsd" filename="ps.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://msnp-sharp.googlecode.com/svn/branches/MSNPSHARP_31_STABLE/WebServiceDefAndSchemas/MSNSecurityTokenService/ps-fault.xsd" filename="ps-fault.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>
