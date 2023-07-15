@@ -1,6 +1,9 @@
 # MSNPSharp
 MSNPSharp Patched for Escargot
 
+## DOCUMENTATION IS AVAILABLE [HERE](https://code.google.com/archive/p/msnp-sharp/wikis)
+
+
 # LICENSE
 Copyright (c) 2002-2012, by chronicle order of joining the project: Bas Geertsema, Xih Solutions (http://www.xihsolutions.net), Thiago.Sayao, Pang Wu, Ethem Evlice, Andy Phan, Chang Liu. All rights reserved.
 
